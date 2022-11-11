@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Holy Grail</title>
+    <style>
+        
+
+        .grid {
+            display: grid;
+            grid-template-columns: 150px auto 150px;
+            
+
+        }
+
+        .header {
+            grid-column: 1/4;
+            background: lightblue;
+            text-align: center;
+            height: 10vh;
+        }
+
+        .footer {
+            grid-column: 1/4;
+            background: lightblue;
+            text-align: center;
+            height: 10vh;
+
+        }
+
+
+        .menu {
+
+            grid-column: 1/2;
+            background: lightpink;
+            text-align: center;
+            height: 101vh;
+
+        }
+
+        .content {
+
+            grid-column: 2 / 3;
+            background: lightsalmon;
+            padding: 0.3rem;
+            text-align: center;
+            display:grid;
+            align-content: center;
+            height: 100vh;
+        }
+
+        .right {
+            grid-column: 3/4;
+            background: lightpink;
+            /* text-align: left; */
+            height: 101vh;
+            display: grid;
+            justify-items: left;
+            align-content: left;
+            /* padding-right: 0.2rem;
+            padding-left: 0.3rem; */
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="grid">
+        <header class="header"><h1>HEADER</h1></header>
+        
+            <aside class="menu">
+                <h3>MENU</h3>
+                <ul>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 4</li>
+                    <li>item 5</li>
+                    <li>item 6</li>
+                </ul>
+
+            </aside>
+            <div class="content">
+                <h1>CONTENT</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quasi provident minima. Ipsa nesciunt
+                    ipsum facilis praesentium.
+                    Officia expedita voluptatum, esse asperiores corporis molestias dignissimos sunt hic nihil quidem?
+                    Dolorem ipsam, odio
+                    assumenda animi eum totam molestiae necessitatibus vero repudiandae sequi aliquid nihil quo cum,
+                    nesciunt nulla non impedit
+                    corrupti culpa maiores ex sit quos perspiciatis! Optio dolor totam fugit excepturi nemo, dicta
+                    cumque harum, beatae dolorum
+                    at vero quos, blanditiis animi dolorem autem fuga libero ab hic? Consectetur quidem ipsam veniam
+                    reiciendis! Alias doloribus
+                    recusandae incidunt tenetur, iusto quisquam labore voluptates vero corrupti rerum enim ipsum iure ad
+                    id!</p>
+            </div>
+            <aside class="right">
+                <ul>
+                    <p>AD </p>
+                    <p>AD Lorem ipsum dolor sit, amet  Alias quia odio ipsa labore temporibus totam, porro, harum magnam maxime consequatur, id vitae!</p>
+                </ul>
+            </aside>
+
+       
+
+        <footer class="footer">
+            <h1>FOOTER</h1>
+        </footer>
+
+        <!-- <h1 class="footer">FOOTER</h1> -->
+
+
+    </div>
+
+    <script>
+        /* --------------------
+         Add your code here
+        --------------------- */
+    </script>
+</body>
+
+</html>
